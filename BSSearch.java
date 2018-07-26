@@ -2,7 +2,7 @@ public class BSSearch {
     public static void main(String args[]) {
         int[] numbers = {2,3,4,5,6,7,8,9,10,12,13,23,34,55,56,77,78,86,89,92,100,102,103,155,566,785,3466};
         System.out.println(findIndex(numbers, 103));
-        int[] numbers = {2,5,5,5,5,5,5,6,6,6,7,8,9,9,9,9,9,10,14,14,15};
+        numbers = {2,5,5,5,5,5,5,6,6,6,7,8,9,9,9,9,9,10,14,14,15};
         System.out.println("The first index is at: " + findFirstIndex(numbers, 6));
     }
     
